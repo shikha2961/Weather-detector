@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: sans-serif;
+    background-image: url(https://grandfather.com/wp-content/uploads/2019/04/Current-Weather.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.app-wrap{
+display: flex;
+ flex-direction: column ;
+ min-height: 100vh;
+ background-image: linear-gradient(to bottom rgba(0,0,0,0.4) rgba(0,0,0,0.4));
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+header input{
+    width: 100%;
+    max-width: 200%;
+    border: none;
+    outline: none;
+    border-color: white;
+    border-radius: 16px 0px 16px;
+    padding: 15px 13px;
+    margin: 80px 400px 60px 400px;
+    background-color: rgb(238, 226, 226);
+
+    color: rgba(8, 7, 7, 0.911);
+    font-size: 20px;
+    font-weight: 200;
+    transition: 0.3s ease-in-out;
+    
+}
+header input :focus{
+    background-color: rgba(92, 82, 82, 0.753);
+}
+
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.location .city{
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8px;
+
+}
+.location .date{
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 16px;
+    margin-top: 8px;
+
+}
+.current .temp{
+    color: rgb(248, 238, 238);
+    font-size: 102px;
+    font-weight: 900;
+    margin: 8px 0px;
+    text-shadow: 0px  6px rgba(12, 5, 5, 0.541);
+}
+.current .weather{
+    color: rgb(252, 240, 240);
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 40px;
+    text-shadow: 0px 4px rgb(0, 0, 0);
+}
+.current .hi-low{
+    color: rgb(238, 226, 226);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
