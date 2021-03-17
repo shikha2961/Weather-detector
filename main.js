@@ -1,7 +1,8 @@
 var api = {
     
-    key: "87cde31000e5170290cebdd94820d23d",
-    base: "http://api.openweathermap.org/data/2.5/"}
+    key: "c5c3389eda6d1ac2f4126d73209a0979",
+    base: "https://api.openweathermap.org/data/2.5/"
+}
   var searchbox = document.querySelector('.search-box');
   searchbox.addEventListener('keypress', setQuery);
   function setQuery(evt)
